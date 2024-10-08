@@ -7,7 +7,7 @@ export default component$(() => {
   return (
     <>
       <Video />
-      <h1>Welcome to Terris Draheim Outdoor</h1>
+      <h1>Welcome to Terris Draheim Outdoor Store</h1>
       <div>
         <h1>Product List</h1>
         <Products />
