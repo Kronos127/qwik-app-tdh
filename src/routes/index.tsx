@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Video } from "../components/video/Video";
 import { Products } from '../components/product/';
-
+import { Slider } from "../components/slider/Slider";
 export default component$(() => {
   return (
     <>
@@ -12,6 +12,7 @@ export default component$(() => {
         <h1>Product List</h1>
         <Products />
       </div>
+      <Slider />
     </>
   );
 });

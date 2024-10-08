@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import styles from "./global.css?inline";
-
+import Menu from "../navbar/Menu";
 export default component$(() => {
   return (
     <header>

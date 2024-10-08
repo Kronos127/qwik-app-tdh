@@ -69,12 +69,30 @@ export default component$(() => {
               </li>
               <li>Hours: Mon-Fri 9am-5pm</li>
             </ul>
+            <h3 class="text-lg font-bold mt-6 text-white">Follow Us</h3>
+
+            <div class="flex space-x-4 justify-end p-2.5">
+              <Link href="https://www.instagram.com/terrisdraheim/" target="_blank" rel="noopener noreferrer" class="hover:text-white">
+              <svg class="w-6 h-6 fill-current text-gray-300 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.975.975 1.246 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.975.975-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.975-.975-1.246-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.975-.975 2.242-1.246 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-1.281.058-2.563.334-3.637 1.408-1.074 1.074-1.35 2.356-1.408 3.637-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.058 1.281.334 2.563 1.408 3.637 1.074 1.074 2.356 1.35 3.637 1.408 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.281-.058 2.563-.334 3.637-1.408 1.074-1.074 1.35-2.356 1.408-3.637.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.058-1.281-.334-2.563-1.408-3.637-1.074-1.074-2.356-1.35-3.637-1.408-1.28-.058-1.688-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.207 0-4-1.793-4-4s1.793-4 4-4 4 1.793 4 4-1.793 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.441-1.441-1.441z"/>
+              </svg>
+              </Link>
+              <Link href="https://www.facebook.com/terrisdraheimoutdoor/" target="_blank" rel="noopener noreferrer" class="hover:text-white">
+              <svg class="w-6 h-6 fill-current text-gray-300 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .733.592 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.672c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.313h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.591 1.325-1.324v-21.35c0-.733-.592-1.325-1.325-1.325z"/>
+              </svg>
+              </Link>
+            </div>
           </div>
         </div>
 
         {/* Footer Bottom */}
         <div class="mt-12 border-t border-gray-700 pt-8">
-          <p class="text-xs text-gray-400">&copy; 2024 Terris Draheim Outdoor. All rights reserved.</p>
+          <p class="text-center text-xs text-gray-400">&copy; 2024 Terris Draheim Outdoor. All rights reserved.</p>
+          <p class="text-center text-sm text-gray-400 mb-4">
+            Made with <span class="text-red-500">&hearts;</span> by <Link href="https://summus.agency" class="hover:text-white">summus.agency</Link>
+          </p>
+          
         </div>
       </div>
     </footer>
